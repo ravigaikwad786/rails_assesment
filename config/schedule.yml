@@ -1,3 +1,7 @@
 user_retrival_job:
    cron: "*/1 * * * *"
    class: "UserRetrivalJob"
+
+user_avg_data_job:
+   cron: "*/1 * * * *"
+   class: "DailyRecordJob"

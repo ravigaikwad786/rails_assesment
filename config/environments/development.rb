@@ -74,4 +74,6 @@ Rails.application.configure do
     port: 6379,
     db: 0, 
     }
+
+  config.active_record.cache_versioning = false
 end
